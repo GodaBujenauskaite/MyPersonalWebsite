@@ -1,0 +1,151 @@
+.top-container{
+    position: relative;
+    text-align: center;
+}
+.top-container h1{
+    position: absolute;
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Adjust position to the true center */
+    font-size: 80px; 
+    width: 100%;  
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    color: #445169;
+}
+.top-container h2{
+    position: absolute;
+    top: 35%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Adjust position to the true center */
+    font-size: 25px; 
+    width: 100%;  
+    font-family: serif;
+    font-weight: 100;
+    color: #445169;
+}
+.background-image{
+    display: block;
+}
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.middle-container h2{
+    color: #445169;
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+.middle-container p{
+    color: #445169;
+    font-family: serif;
+}
+.middle-container img{
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+}
+hr{
+    color: #445169;
+}
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.point{
+    background-color: #445169;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    color: #445169;
+    font-size: 40px;
+}
+.rotateimage{
+    transform: scaleX(-1);
+}
+.skills-container img{
+    width: 250px;
+}
+.skills-container h3, p{
+    text-align: center;
+    color: white;
+}
+.More-info-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.More-info-container h2{
+    color: #445169;
+}
+.project-container p{
+    color: #445169;
+}
+.project-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.project-container h2{
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: #445169;
+}
+.flowerContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+.last-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.last-container h2{
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 40px;
+    color: #445169;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.footer-container{
+    margin: 0;
+    padding: 0;
+    background-color: #445169;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.last-container h3{
+    font-weight: normal;
+}
+.links a{
+    background-color: #445169;
+    border-radius: 20%;
+    height: 30px;
+    width: 100px;
+    color: white;
+    text-align: center;
+}
